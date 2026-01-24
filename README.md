@@ -1,33 +1,44 @@
-# TripleTen-8-projeto_Y.Afisha
-
 # Análise de Negócio e Métricas de Marketing — Y.Afisha
 
 ## 📌 Contexto do Projeto
+Este projeto faz parte do Bootcamp de Análise de Dados da TripleTen e simula um cenário real de análise de negócio no setor de marketing digital.  
+A análise foi realizada para a empresa **Y.Afisha**, com foco em entender o comportamento dos usuários, avaliar a eficiência dos investimentos em marketing e identificar oportunidades de otimização de custos e aumento de retorno.
 
-Este projeto faz parte do Bootcamp de Análise de Dados da TripleTen e simula um cenário real de negócio. A análise foi realizada para a empresa Y.Afisha, com o objetivo de **avaliar a eficiência dos investimentos em marketing** e **entender o comportamento dos usuários ao longo do tempo**.
-
-Foram utilizados dados de acesso ao site, pedidos realizados e custos de marketing no período de **janeiro de 2017 a dezembro de 2018**, permitindo uma visão completa do funil de aquisição, conversão e monetização dos clientes.
+Foram analisados dados de visitas, pedidos e despesas de marketing, permitindo a avaliação de métricas financeiras e de produto ao longo do tempo.
 
 ---
 
 ## 📊 Resumo Geral da Análise
+A análise revelou que **o retorno sobre investimento (ROI) varia significativamente entre os diferentes canais de aquisição**, indicando que nem todas as fontes de tráfego apresentam o mesmo nível de eficiência.
 
-A análise mostrou que os usuários apresentam **comportamentos distintos de engajamento e conversão**, dependendo da origem de aquisição e do tempo desde o primeiro acesso. Observou-se que uma parcela significativa dos usuários não converte imediatamente, reforçando a importância de acompanhar métricas de retenção e valor ao longo do tempo.
+Foi identificado que **alguns canais concentram maior volume de usuários, mas apresentam baixo retorno financeiro**, enquanto outros, mesmo com menor volume, geram maior valor ao longo do tempo.  
+A avaliação do **LTV (Lifetime Value)** e do **CAC (Custo de Aquisição de Cliente)** mostrou que determinados canais não se sustentam financeiramente no médio e longo prazo.
 
-Os cálculos de **CAC (Custo de Aquisição de Clientes)** e **LTV (Lifetime Value)** evidenciaram que nem todos os canais de marketing são igualmente eficientes. Alguns canais apresentam baixo custo inicial, mas geram usuários com menor valor ao longo do tempo, enquanto outros, apesar de mais caros, trazem clientes mais rentáveis.
-
-Além disso, a análise de **payback** indicou que parte dos investimentos demora a ser recuperada, o que exige uma estratégia mais criteriosa na alocação do orçamento de marketing.
+Além disso, observou-se que **os primeiros meses de uso são críticos para a recuperação do investimento em aquisição**, reforçando a importância de estratégias de retenção.
 
 ---
 
 ## ✅ Recomendações
+- **Priorizar investimentos em canais com maior LTV/CAC**, reduzindo gradualmente o orçamento de canais com baixo retorno.
+- **Reavaliar campanhas de marketing com alto custo e baixa conversão**, buscando ajustes de segmentação ou substituição por canais mais eficientes.
+- **Fortalecer estratégias de retenção nos primeiros meses do usuário**, acelerando o retorno sobre o investimento em aquisição.
+- **Monitorar continuamente métricas financeiras**, como ROI, LTV e CAC, para embasar decisões de orçamento e crescimento.
+- **Testar novos canais em pequena escala**, validando eficiência antes de expandir o investimento.
 
-Com base nos resultados obtidos, recomenda-se **priorizar os canais de marketing que apresentaram melhor relação entre LTV e CAC**, ou seja, aqueles em que o valor gerado pelo cliente ao longo do tempo supera de forma consistente o custo de aquisição.
+---
 
-Canais com **CAC elevado e LTV baixo ou instável** devem ter seus investimentos reduzidos ou reavaliados, pois indicam baixa eficiência financeira e maior risco de prejuízo no longo prazo.
+## 🛠️ Ferramentas Utilizadas
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Análise de métricas de marketing (LTV, CAC, ROI)  
 
-É recomendado concentrar esforços em **usuários que demonstram maior propensão à conversão nos primeiros meses**, já que a análise mostrou que clientes que não compram em um período inicial tendem a não se tornar rentáveis posteriormente.
+---
 
-Além disso, sugere-se monitorar continuamente o **tempo de payback**, priorizando campanhas em que o retorno sobre o investimento ocorre mais rapidamente, garantindo maior liquidez e sustentabilidade financeira.
+## 📈 Aprendizados
+- Avaliação da eficiência de canais de marketing com base em métricas financeiras.
+- Análise do comportamento do usuário ao longo do tempo.
+- Suporte à tomada de decisão estratégica orientada por dados.
+- Comunicação de insights de negócio de forma clara e objetiva.
 
-Por fim, recomenda-se utilizar essas métricas como base para **planejamento de orçamento futuro**, adotando uma abordagem orientada por dados para decisões de marketing, reduzindo desperdícios e maximizando o retorno sobre investimento.
