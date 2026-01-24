@@ -42,3 +42,35 @@ Além disso, observou-se que **os primeiros meses de uso são críticos para a r
 - Suporte à tomada de decisão estratégica orientada por dados.
 - Comunicação de insights de negócio de forma clara e objetiva.
 
+---
+
+## 🔗 Link do Projeto
+
+Repositório GitHub:  
+https://github.com/rafaelmat0s/TripleTen-8-projeto_Y.Afisha
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Clonar o repositório:
+```bash
+git clone https://github.com/rafaelmat0s/TripleTen-8-projeto_Y.Afisha.git
+
+
+2️⃣ Entrar na pasta do projeto:
+cd TripleTen-8-projeto_Y.Afisha
+
+3️⃣ Criar e ativar um ambiente virtual
+python -m venv venv
+venv\Scripts\activate
+
+4️⃣ Instalar as dependências:
+pip install pandas numpy matplotlib
+
+5️⃣ Executar o projeto
+Abrir o arquivo .ipynb no Jupyter Notebook ou VS Code
+Executar as células sequencialmente para reproduzir a análise do funil e o teste A/B
+
+
+
